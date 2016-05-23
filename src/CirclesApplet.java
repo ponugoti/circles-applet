@@ -13,13 +13,13 @@ public class CirclesApplet extends JApplet {
     private final int SLEEP_DURATION = 50;
 
     private Random rand = new Random();
-    private final int RES_X = 1000;     // Window width
-    private final int RES_Y = 800;      // Window height
+    private final int RES_X = 500;     // Window width
+    private final int RES_Y = 400;      // Window height
 
     private class Circle {
         Color color;
         private final int RADIUS_MIN = 0;
-        private final int RADIUS_RANGE = 150;
+        private final int RADIUS_RANGE = 100;
         int centerX, centerY;
         int radius;
 
